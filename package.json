@@ -1,0 +1,24 @@
+{
+  "name": "jeff-smells-like",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigjohn4477/jeff-smells-like.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigjohn4477/jeff-smells-like/issues"
+  },
+  "homepage": "https://github.com/bigjohn4477/jeff-smells-like#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
