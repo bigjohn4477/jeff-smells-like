@@ -3,6 +3,8 @@ var app = express();
 
 const path  = require('path');
 
+var port = process.env.PORT || 8080;
+
 // Setup views directory, file type and public filder.
 app.set('views', __dirname + '/views');
 
@@ -17,6 +19,6 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
    console.log("Listening")
 })
